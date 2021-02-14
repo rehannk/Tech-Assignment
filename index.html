@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techstalwarts - Mobile App & Web development company</title>
+    <link rel="apple-touch-icon" sizes="76x76" href="https://techstalwarts.com/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://techstalwarts.com/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://techstalwarts.com/favicon-16x16.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container-fluid">
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <div class="logoHeader">
+                <img src="https://techstalwarts.com/img/Logo.png">
+                <a href="https://techstalwarts.com/" class="logo">Tech<span style="font-weight: 700;">Stalwarts</span>
+                </a>
+            </div>
+            <ul class="main-nav" id="js-menu">
+                <li><a href="#" class="nav-links"><span>About</span></a></li>
+                <li><a href="#" class="nav-links"><span>Services</span></a></li>
+                <li><a href="#" class="nav-links"><span>Technologies</span></a></li>
+                <li><a href="#" class="nav-links"><span>Case Studies</span></a></li>
+                <li><a href="#" class="nav-links"><span class="contact-button">Contact Us</span></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Image Slider -->
+    <div class="wrapping">
+        <div class="maincont">
+            <div class="box" id="box1">
+                <img src="https://techstalwarts.com/img/bannar/UI.svg" alt="UI UX" width="100%">
+                <div class="content">
+                    <h1>Do you have a concept<br> and need to design<br> them quickly?</h1>
+                    <p class="munset">Thoughtful UI &amp; UX approach helps team cut down their development expenses and
+                        increases the usability of the product</p>
+                    <button class="btn contact-button">View our UI/UX services now </button>
+                </div>
+            </div>
+            <div class="box" id="box2" style="display: none;">
+                <img src="https://techstalwarts.com/img/bannar/Agile software_01.svg" alt="Los Angeles" width="100%">
+                <div class="content">
+                    <h1>Agile Software<br>
+                        Outsourcing company.</h1>
+                    <p class="munset">We are flexible team working on latest technologies. We specialise in UI/UX
+                        services, Web &amp; App development &amp; Cloud hosting.
+                    </p>
+                    <div class="sldbtn" style="display: inline-block;">
+                        <button class="btn contact-button" id="webdevelopment">Know more</button>
+                        <span> about our off-shore development.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="box3" style="display: none;">
+                <img src="https://techstalwarts.com/img/bannar/App Development .svg" alt="Los Angeles" width="100%">
+                <div class="content">
+                    <h1>Mobile Application <br>development
+                    </h1>
+                    <p class="munset">Are native apps worth the extra effort and cost? Can you save time and money with a hybrid app?</p>
+                    <div class="sldbtn" style="display: inline-block;">
+                        <a href="" style="padding-left:10px;padding-right:10px;">
+                            <button class="btn contact-button">Contact us</button></a>
+                        <span> for a free consultation now.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="box4" style="display: none;">
+                <img src="https://techstalwarts.com/img/bannar/Cloud computing_03.svg" alt="Los Angeles" width="100%">
+                <div class="content">
+                    <h1>Are you a start-ups and not sure<br> which tech stack to<br> consider for your product?
+                    </h1>
+                    <p class="munset">We build products with latest stack focused on start-ups budget and product
+                        road-map.
+                    </p>
+                    <div class="sldbtn" style="display: inline-block;">
+                        <a href="" style="padding-left:10px;padding-right:10px;">
+                            <button class="btn contact-button">Click here
+                            </button></a>
+                        <span> to view technologies we work on.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carousButton">
+            <span id="ctrl1" class="dot activated"></span>
+            <span id="ctrl2" class="dot"></span>
+            <span id="ctrl3" class="dot"></span>
+            <span id="ctrl4" class="dot"></span>
+        </div>
+    </div>
+
+    <!-- About -->
+    <section>
+        <div class="inner-width">
+            <div class="tech-title">
+                <h1>Not just a software development company,</h1>
+                <p>but we are a bunch of young guns who understand business and design the solution accordingly.</p>
+                <p> According to us, Tech is just an enabler. You need to understand the business processes first to get
+                    into the stage of development</p>
+            </div>
+            <div class="tech-content slide-left">
+                    <div class="icon-box">
+                        <div class="icon-image">
+                            <img src="https://techstalwarts.com/img/about-us/icon/Startup.svg">
+                        </div>
+                        <p>10+ Start-ups Supported</p>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon-image">
+                            <img src="https://techstalwarts.com/img/about-us/icon/Clients.svg">
+                        </div>
+                        <p>20+ Satisfied Clients</p>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon-image">
+                            <img src="https://techstalwarts.com/img/about-us/icon/Mobile-Apps.svg">
+                        </div>
+                        <p>15+ Mobile Apps Created</p>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon-image">
+                            <img src="https://techstalwarts.com/img/about-us/icon/UX-Strategies.svg">
+                        </div>
+                        <p>25+ UI/UX Strategies</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="inner-width">
+          <div class="copyright">
+            Copyright &copy; 2021 techstalwarts.com. All Rights Reserved.
+          </div>
+          <div class="sm">
+            <a href="https://www.facebook.com/techstalwarts/" class="fab fa-facebook-f" target="_blank"></a>
+            <a href="https://twitter.com/" class="fab fa-twitter" target="_blank"></a>
+            <a href="https://instagram.com/techstalwarts?igshid=12n4xnd0oxq5p" class="fab fa-instagram" target="_blank"></a>
+            <a href="https://www.linkedin.com/company/techstalwarts-software-development-llp/about/" class="fab fa-linkedin-in" target="_blank"></a>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>
